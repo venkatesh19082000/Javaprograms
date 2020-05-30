@@ -1,0 +1,15 @@
+class Main
+    {
+        public static void main(String[] args)
+        {
+            String str="Hi likitha";
+            int check=str.indexOf("Hi");
+            if(check==-1)
+            {
+                System.out.println("Not found");
+            }
+            else{
+               System.out.println("found"); 
+            }
+        }
+    }
